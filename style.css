@@ -4,9 +4,10 @@ body {
     text-align: center;
 }
 
-#canvas-container {
+#gl-canvas {
     margin: 20px auto;
-    width: 600px;
+    display: block;
+    border: 1px solid #ddd;
 }
 
 h1 {
@@ -16,4 +17,8 @@ h1 {
 .info {
     margin-bottom: 20px;
     color: #7f8c8d;
+}
+
+#p5-container {
+    display: none; /* Esconde o canvas duplicado do p5.js */
 }

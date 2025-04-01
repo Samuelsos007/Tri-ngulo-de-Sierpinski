@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 4 - Triângulo de Sierpinski</title>
+    <title>Exercício 4 - Triângulo de Sierpinski com WebGL</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
     <script src="sketch.js"></script>
 </head>
 <body>
-    <h1>Triângulo de Sierpinski</h1>
-    <p class="info">Implementação do fractal com 15 pontos e vértices aleatórios</p>
+    <h1>Triângulo de Sierpinski com WebGL</h1>
+    <p class="info">Implementação do fractal com 15 pontos usando WebGL</p>
     
-    <div id="canvas-container"></div>
+    <!-- Canvas WebGL com dimensões específicas -->
+    <canvas id="gl-canvas" width="512" height="512">
+        Seu navegador não suporta o elemento canvas.
+    </canvas>
+    
+    <div id="p5-container"></div>
 </body>
 </html>
